@@ -4,11 +4,13 @@
     align-items: center;  
     color: white;
   }
+
+  .navbar-links {
+    transform: translateY(-2.5rem);
+  }
   
-  .navbar-links ul {
-    margin: 0;
-    padding: 0; 
-    display: flex;   
+  .navbar-links ul {   
+    display: flex;      
   }
   
   .navbar-links li {
@@ -20,7 +22,8 @@
     text-decoration: none;
     color: white;
     padding: 2rem; 
-    cursor: pointer;       
+    cursor: pointer;  
+    font-weight: 600;  
   }
 
   .border-right {

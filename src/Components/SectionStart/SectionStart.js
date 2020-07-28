@@ -12,7 +12,7 @@ function SectionStart() {
                 <button className="aboutApp">O aplikacji</button>
                 <button className="download">Pobierz</button>           
             </div>
-            <img src={Fingers}/>                
+            <img src={Fingers} alt="fingers"/>                
         </div>
     )
 }
