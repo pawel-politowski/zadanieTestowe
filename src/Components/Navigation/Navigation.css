@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    color: white;
+  }
+  
+  .navbar-links ul {
+    margin: 0;
+    padding: 0; 
+    display: flex;   
+  }
+  
+  .navbar-links li {
+    list-style: none;   
+    line-height: 2rem ;    
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem; 
+    cursor: pointer;       
+  }
+
+  .border-right {
+      border-right: 1px solid white;
+  }

@@ -1,0 +1,29 @@
+.section-start {
+    display: flex;    
+}
+
+.section-left {
+    color: white;  
+    position: relative;
+}
+
+button {
+  width: 190px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 8px; 
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.aboutApp {
+  margin-right: 30px;     
+  color: goldenrod; 
+}
+
+.download {  
+  background: transparent;
+  color: white;
+  border: 1px solid white; 
+}
+
