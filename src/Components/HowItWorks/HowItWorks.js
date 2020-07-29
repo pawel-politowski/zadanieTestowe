@@ -5,6 +5,9 @@ import Phone2 from '../../images/phone2.png';
 import Phone3 from '../../images/phone3.png';
 import Phone4 from '../../images/phone4.png';
 import Description from '../Description/Description';
+import Arrow1 from '../../images/arrow1.png';
+import Arrow2 from '../../images/arrow2.png';
+import Arrow3 from '../../images/arrow3.png';
 
 function HowItWorks() {
     return (

@@ -3,3 +3,16 @@
     text-align: center;
     position: relative;
 }
+
+.phone1 {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+
+.phone2 {
+    position: absolute;
+    top: 18%;
+    right: 12%;
+}
+
