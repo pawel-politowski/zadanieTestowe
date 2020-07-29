@@ -29,6 +29,10 @@ function HowItWorks() {
             <div className="fourthPrgh">
                 <Description children="4"/>
             </div>
+            <img className="arrow1" src={Arrow1} alt="arrow1"/>
+            <img className="arrow2" src={Arrow2} alt="arrow2"/>
+            <img className="arrow3" src={Arrow3} alt="arrow3"/>
+            <h2>Lorem ipsum!</h2>
         </div>         
     )
 }

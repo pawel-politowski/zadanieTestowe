@@ -6,7 +6,7 @@
 
 .phone1 {
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 12%;
 }
 
@@ -14,5 +14,67 @@
     position: absolute;
     top: 18%;
     right: 12%;
+}
+
+.phone3 {
+    position: absolute;
+    top: 41%;
+    left: 15%;
+}
+
+.phone4 {
+    position: absolute;
+    top: 66%;
+    left: 40%;
+}
+
+.firstPrgh {
+    position: absolute;
+    top: 12%;
+    left: 33%;
+}
+
+.secondPrgh {
+    position: absolute;
+    top: 28%;
+    left: 55%;
+}
+
+.thirdPrgh {
+    position: absolute;
+    top: 47%;
+    left: 33%;
+}
+
+.fourthPrgh {
+    position: absolute;
+    top: 63%;
+    left: 60%;
+}
+
+.arrow1 {
+    position: absolute;
+    top: 18%;
+    left: 53%;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.arrow3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+h2 {
+    color: goldenrod;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
