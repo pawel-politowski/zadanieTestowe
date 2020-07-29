@@ -1,0 +1,16 @@
+.priceList {
+    height: 90vh;
+    background: rgb(44,21,133);
+    background: linear-gradient(149deg, rgba(44,21,133,1) 0%, rgba(83,21,147,1) 100%);
+    color: white;
+    display: flex;    
+}
+
+.priceList h1{
+    margin: 0;
+    padding: 0 1rem 0 0;
+}
+
+.priceList p {
+    transform: translateY(1.9rem);
+}
