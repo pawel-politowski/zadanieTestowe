@@ -14,17 +14,16 @@ img {
   height: auto;
 }
 
-.App {  
+.appStart {  
   height: 90vh;  
   position: relative;
   overflow: hidden;
   padding: 2rem 5rem;
   background: rgb(47,35,172);
   background: linear-gradient(149deg, rgba(47,35,172,1) 0%, rgba(205,71,158,1) 100%);
-
 }
 
-.App::after {
+.appStart::after {
   content: '';
   position: absolute;
   background: white;
@@ -35,6 +34,5 @@ img {
   z-index: 1;
   border-top-right-radius: 100% 100%;
   border-top-left-radius: 100% 100%;
-
 }
 

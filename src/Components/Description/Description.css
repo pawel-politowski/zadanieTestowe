@@ -1,0 +1,24 @@
+.description {
+    display: flex;
+    width: 220px;
+    text-align: left;
+    color: goldenrod;
+}
+
+.description h1 {
+    margin: 0 1rem;
+    padding: 0;
+    transform: translateY(-0.3rem);
+}
+
+.description h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.dscPrgh {
+    width: 220px;
+    padding: 0;
+    margin: 0 0 0 1rem;
+    text-align: left;
+}
