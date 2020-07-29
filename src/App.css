@@ -36,3 +36,10 @@ img {
   border-top-left-radius: 100% 100%;
 }
 
+.appEnd {
+  padding: 2rem 5rem;
+  height: 90vh;
+  background: rgb(44,21,133);
+  background: linear-gradient(149deg, rgba(44,21,133,1) 0%, rgba(83,21,147,1) 100%);
+}
+

@@ -14,8 +14,10 @@ function App() {
     </div>
     <div className="appMain">
       <HowItWorks />
+    </div>    
+    <div className="appEnd">
+      <PriceList />
     </div>
-    <PriceList />
     </>
   );
 }

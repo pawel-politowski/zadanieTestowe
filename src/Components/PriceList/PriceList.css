@@ -1,9 +1,7 @@
-.priceList {
-    height: 90vh;
-    background: rgb(44,21,133);
-    background: linear-gradient(149deg, rgba(44,21,133,1) 0%, rgba(83,21,147,1) 100%);
+.priceList {    
     color: white;
-    display: flex;    
+    display: flex;  
+    padding-bottom: 6rem;  
 }
 
 .priceList h1{
@@ -13,4 +11,43 @@
 
 .priceList p {
     transform: translateY(1.9rem);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h1, .container h3 {
+    margin: 0;
+    padding: 0;      
+}
+
+.container img {
+    transform: translateY(-6rem);
+    padding: 1rem 2rem;
+}
+
+.leftSide {
+    background: white;
+    color: black;  
+    flex: 0 1 33%;  
+    border-radius: 5px;          
+}
+
+.titleLeftSide {
+    display: flex;
+    border-bottom: 1px solid goldenrod;    
+}
+
+.rightSide {
+    background: white;
+    color: black;  
+    flex: 0 1 66%; 
+    border-radius: 5px;   
+}
+
+.titleRightSide {
+    display: flex;
+    border-bottom: 1px solid goldenrod; 
 }
