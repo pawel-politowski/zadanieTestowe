@@ -23,31 +23,101 @@
     padding: 0;      
 }
 
-.container img {
-    transform: translateY(-6rem);
-    padding: 1rem 2rem;
+.container img {    
+   position: absolute;
+   left: 25px;
+   top: -55%;   
 }
+
+.titleLeftSide h3, .titleRightSide h3 {
+    position: absolute;
+    left: 150px;
+    top: 25%;
+} 
 
 .leftSide {
     background: white;
     color: black;  
     flex: 0 1 33%;  
-    border-radius: 5px;          
+    border-radius: 5px;  
+    height: 75vh;        
 }
 
-.titleLeftSide {
-    display: flex;
-    border-bottom: 1px solid goldenrod;    
+.titleLeftSide {   
+    border-bottom: 1px solid goldenrod;     
+    position: relative;
+    height: 20%;
 }
 
 .rightSide {
     background: white;
     color: black;  
     flex: 0 1 66%; 
-    border-radius: 5px;   
+    border-radius: 5px;
 }
 
-.titleRightSide {
-    display: flex;
+.titleRightSide {    
     border-bottom: 1px solid goldenrod; 
+    position: relative;
+    height: 20%;
 }
+
+.middleSectionLeft {
+    height: 25%;
+    border-bottom: 1px solid goldenrod; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middleSectionRight {
+    height: 25%;
+    border-bottom: 1px solid goldenrod; 
+    display: flex;    
+    justify-content: flex-end;  
+    text-align: center;  
+}
+
+.middleSectionRight div {
+    flex-basis: 25%;
+}
+
+.middleSectionRight h3 {
+    padding: 1.6rem;
+}
+
+select {
+    background: white;
+    width: 100px;
+    border-radius: 3px;
+    padding-left: 0.6rem; 
+}
+
+.middleSectionRight span {
+    font-size: 0.8rem;
+}
+
+.bottomSectionLeft, .bottomSectionRight {
+    padding: 1rem;
+}
+
+.bottomSectionLeft div, .bottomSectionLeft span, .bottomSectionRightPrgh div {
+    padding: 0.5rem;
+}
+
+.bottomSectionRightPrgh {
+    display: flex;
+}
+
+.text {
+    flex-basis: 50%;    
+}
+
+.icon {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+
+
