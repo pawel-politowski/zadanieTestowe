@@ -6,7 +6,7 @@ export const RegisterModal = ({ showRegister, closeRegister }) => {
     <div className="modal-wrapper"
       style={{
         transform: showRegister ? 'translateY(0vh)' : 'translateY(-100vh)',
-        opacity: showRegister ? '1' : '0'
+        display: showRegister ? 'block' : 'none'
       }}
     >
       <div className="modal-header">
@@ -14,8 +14,7 @@ export const RegisterModal = ({ showRegister, closeRegister }) => {
         <span onClick={closeRegister} className="close-modal-btn">x</span>
       </div>
       <div className="modal-content">
-        <div className="modal-body">
-        <label>W celu rejetracji podaj swój email i hasło</label>
+        <div className="modal-body">        
           <input class="email" placeholder="email"/>
           <input class="text" placeholder="hasło"/>
           <input type="submit"/>

@@ -1,13 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Navigation from './Components/Navigation/Navigation';
 import SectionStart from './Components/SectionStart/SectionStart'
 import HowItWorks from './Components/HowItWorks/HowItWorks';
 import PriceList from './Components/PriceList/PriceList';
 
+
 function App() {
+ 
   return (
-    <>
+    <>           
     <div className="appStart">
       <Navigation />
       <SectionStart />      
@@ -16,8 +18,8 @@ function App() {
       <HowItWorks />
     </div>    
     <div className="appEnd">
-      <PriceList />
-    </div>
+      <PriceList />      
+    </div>   
     </>
   );
 }

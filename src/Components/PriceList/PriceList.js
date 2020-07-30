@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './PriceList.css';
 import Phone from '../../images/phone.png';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -6,10 +6,11 @@ import {faCheck, faTimes} from '@fortawesome/free-solid-svg-icons';
 import Apple from '../../images/apple.jpg';
 import Google from '../../images/google.jpg';
 
-function PriceList() {
+function PriceList(props) {   
+
     return (
-        <>
-            <div className="priceList">
+        <>                        
+            <div className="priceList">                
                 <h1>Cennik</h1>
                 <p>Ile to kosztuje?</p>
             </div>
@@ -96,7 +97,7 @@ function PriceList() {
                         </div>
                         <h3 className="titleRight">Zarejestruj się i wypróbuj!</h3>
                         <button className="register">Rejestracja</button>
-                        <button className="log">Logowanie</button>
+                        <button className="log">Logowanie</button>                       
                     </div>
                 </div>
             </div>

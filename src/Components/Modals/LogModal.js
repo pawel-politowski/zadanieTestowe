@@ -6,7 +6,7 @@ export const LogModal = ({ showLog, closeLog }) => {
     <div className="modal-wrapper"
       style={{
         transform: showLog ? 'translateY(0vh)' : 'translateY(-100vh)',
-        opacity: showLog ? '1' : '0'
+        display: showLog ? 'block' : 'none'
       }}
     >
       <div className="modal-header">
@@ -17,6 +17,7 @@ export const LogModal = ({ showLog, closeLog }) => {
         <div className="modal-body">
           <input class="email" placeholder="email"></input>
           <input class="text" placeholder="hasło"></input>
+          <input type="submit"/>
         </div>
         <div className="modal-footer">
           <button onClick={closeLog} className="btn-cancel">Close</button>

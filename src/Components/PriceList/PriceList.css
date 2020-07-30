@@ -2,6 +2,7 @@
     color: white;
     display: flex;  
     padding-bottom: 6rem;  
+    overflow: hidden;
 }
 
 .priceList h1{
