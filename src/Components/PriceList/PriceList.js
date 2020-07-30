@@ -2,8 +2,9 @@ import React from 'react';
 import './PriceList.css';
 import Phone from '../../images/phone.png';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCheck} from '@fortawesome/free-solid-svg-icons';
-
+import {faCheck, faTimes} from '@fortawesome/free-solid-svg-icons';
+import Apple from '../../images/apple.jpg';
+import Google from '../../images/google.jpg';
 
 function PriceList() {
     return (
@@ -15,7 +16,7 @@ function PriceList() {
             <div className="container">
                 <div className="leftSide">  
                     <div className="titleLeftSide">
-                        <img src={Phone} alt="phone"/>
+                        <img className="phone" src={Phone} alt="phone"/>
                         <h3>Lorem ipsum<h1>Dolor</h1></h3>
                     </div>
                     <div className="middleSectionLeft">
@@ -30,10 +31,13 @@ function PriceList() {
                         <div><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/><span>ut labore et dolore</span></div>
                         <div><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/><span>magna aliqua</span></div>
                     </div>  
+                    <h3 className="titleLeft">Dołącz do zabawy już dziś!</h3>
+                    <img className="apple" src={Apple} alt="apple"/>
+                    <img className="google" src={Google} alt="google"/>
                 </div>
                 <div className="rightSide">  
                     <div className="titleRightSide">
-                        <img src={Phone} alt="phone"/>
+                        <img className="phone" src={Phone} alt="phone"/>
                         <h3>Lorem ipsum<h1>dolor sit amet</h1></h3>
                     </div>  
                     <div className="middleSectionRight">
@@ -72,24 +76,27 @@ function PriceList() {
                         </div>
                         <div className="bottomSectionRightPrgh">
                             <div className="text">ut labore et dolore</div>
-                            <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div>                            
+                            <div className="icon"><FontAwesomeIcon icon={faTimes} style={{color:"grey"}}/></div>                            
                             <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div> 
                         </div>
                         <div className="bottomSectionRightPrgh">
                             <div className="text">Lorem ipsum</div>
-                            <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div>                            
+                            <div className="icon"><FontAwesomeIcon icon={faTimes} style={{color:"grey"}}/></div>                            
                             <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div> 
                         </div>
                         <div className="bottomSectionRightPrgh">
                             <div className="text">Ipsum dolor sit amet</div>
-                            <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div>                            
+                            <div className="icon"><FontAwesomeIcon icon={faTimes} style={{color:"grey"}}/></div>                            
                             <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div> 
                         </div>
                         <div className="bottomSectionRightPrgh">
                             <div className="text">ut labore et dolore magna aliqua</div>
-                            <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div>                            
+                            <div className="icon"><FontAwesomeIcon icon={faTimes} style={{color:"grey"}}/></div>                            
                             <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div> 
                         </div>
+                        <h3 className="titleRight">Zarejestruj się i wypróbuj!</h3>
+                        <button className="register">Rejestracja</button>
+                        <button className="log">Logowanie</button>
                     </div>
                 </div>
             </div>
