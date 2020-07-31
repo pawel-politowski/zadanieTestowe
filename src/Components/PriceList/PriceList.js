@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './PriceList.css';
 import Phone from '../../images/phone.png';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -96,8 +96,8 @@ function PriceList(props) {
                             <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div> 
                         </div>
                         <h3 className="titleRight">Zarejestruj się i wypróbuj!</h3>
-                        <button className="register">Rejestracja</button>
-                        <button className="log">Logowanie</button>                       
+                        <button onClick={props.callbackRegister} className="register">Rejestracja</button>
+                        <button onClick={props.callbackLog} className="log">Logowanie</button>                       
                     </div>
                 </div>
             </div>

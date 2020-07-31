@@ -1,5 +1,5 @@
 import React from 'react';
-import './RegisterModal.css';
+import './LogModal.css';
 
 export const RegisterModal = ({ showRegister, closeRegister }) => {
   return (
