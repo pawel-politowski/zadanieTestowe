@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './LogModal.css';
 import { Link } from 'react-router-dom';
 
-export const LogModal = ({ showLog, closeLog }) => {
+export const LogModal = ({ showLog, closeLog }) => {  
+  useEffect(() => {
+    window.onpopstate = e => {
+      closeLog()
+    }
+  })
   return (
     <div className="modal-wrapper"
       style={{
