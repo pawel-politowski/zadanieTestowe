@@ -32,7 +32,7 @@ function App() {
           <RegisterModal showRegister={showRegister} closeRegister={closeModalHandlerRegister} />    
           { showRegister ? <div onClick={closeModalHandlerRegister} className="back-drop"></div> : null }
           <div className="appStart">
-            <Navigation />
+            <Navigation callbackLog={callbackLog} callbackRegister={callbackRegister}/>
             <SectionStart />      
           </div>
           <div className="appMain">
@@ -46,7 +46,7 @@ function App() {
           <LogModal showLog={true} closeLog={closeModalHandlerLog} />               
           { <div onClick={closeModalHandlerLog} className="back-drop"></div> }              
           <div className="appStart">
-            <Navigation />
+            <Navigation callbackLog={callbackLog} callbackRegister={callbackRegister}/>
             <SectionStart />      
           </div>
           <div className="appMain">
@@ -60,7 +60,7 @@ function App() {
           <RegisterModal showRegister={true} closeRegister={closeModalHandlerRegister}/>    
           { <div onClick={closeModalHandlerRegister} className="back-drop"></div> }       
           <div className="appStart">
-            <Navigation />
+            <Navigation callbackLog={callbackLog} callbackRegister={callbackRegister}/>
             <SectionStart />      
           </div>
           <div className="appMain">
