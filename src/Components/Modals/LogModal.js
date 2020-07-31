@@ -1,5 +1,6 @@
 import React from 'react';
 import './LogModal.css';
+import { Link } from 'react-router-dom';
 
 export const LogModal = ({ showLog, closeLog }) => {
   return (
@@ -11,16 +12,16 @@ export const LogModal = ({ showLog, closeLog }) => {
     >
       <div className="modal-header">
         <p>Logowanie</p>
-        <span onClick={closeLog} className="close-modal-btn">x</span>
+        <Link to='/' style={{textDecoration: 'none', color: 'white'}}><span onClick={closeLog} className="close-modal-btn">x</span></Link>        
       </div>
       <div className="modal-content">
         <div className="modal-body">
-          <input class="email" placeholder="email"></input>
-          <input class="text" placeholder="hasło"></input>
+          <input className="email" placeholder="email"></input>
+          <input className="text" placeholder="hasło"></input>
           <input type="submit"/>
         </div>
         <div className="modal-footer">
-          <button onClick={closeLog} className="btn-cancel">Close</button>
+          <Link to='/' style={{textDecoration: 'none'}}><button onClick={closeLog} className="btn-cancel">Close</button></Link>          
         </div>
       </div>
     </div>

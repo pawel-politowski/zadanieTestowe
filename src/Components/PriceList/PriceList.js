@@ -5,6 +5,7 @@ import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCheck, faTimes} from '@fortawesome/free-solid-svg-icons';
 import Apple from '../../images/apple.jpg';
 import Google from '../../images/google.jpg';
+import { Link } from 'react-router-dom';
 
 function PriceList(props) {   
 
@@ -18,7 +19,7 @@ function PriceList(props) {
                 <div className="leftSide">  
                     <div className="titleLeftSide">
                         <img className="phone" src={Phone} alt="phone"/>
-                        <h3>Lorem ipsum<h1>Dolor</h1></h3>
+                        <h3>Lorem ipsum<div className="divH1">Dolor</div></h3>
                     </div>
                     <div className="middleSectionLeft">
                         <h1>Za darmo</h1>
@@ -39,7 +40,7 @@ function PriceList(props) {
                 <div className="rightSide">  
                     <div className="titleRightSide">
                         <img className="phone" src={Phone} alt="phone"/>
-                        <h3>Lorem ipsum<h1>dolor sit amet</h1></h3>
+                        <h3>Lorem ipsum<div className="divH1">dolor sit amet</div></h3>
                     </div>  
                     <div className="middleSectionRight">
                         <div>
@@ -96,8 +97,8 @@ function PriceList(props) {
                             <div className="icon"><FontAwesomeIcon icon={faCheck} style={{color:"goldenrod"}}/></div> 
                         </div>
                         <h3 className="titleRight">Zarejestruj się i wypróbuj!</h3>
-                        <button onClick={props.callbackRegister} className="register">Rejestracja</button>
-                        <button onClick={props.callbackLog} className="log">Logowanie</button>                       
+                        <Link to='/register'><button onClick={props.callbackRegister} className="register">Rejestracja</button></Link>
+                        <Link to='/login'><button onClick={props.callbackLog} className="log">Logowanie</button></Link>                                             
                     </div>
                 </div>
             </div>

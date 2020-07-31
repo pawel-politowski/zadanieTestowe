@@ -5,7 +5,11 @@
     overflow: hidden;
 }
 
-.priceList h1{
+.divH1 {
+    font-size: 3rem;
+}
+
+.priceList h1, .divH1{
     margin: 0;
     padding: 0 1rem 0 0;
 }
@@ -19,7 +23,7 @@
     justify-content: space-around;
 }
 
-.container h1, .container h3 {
+.container h1, .container h3, .divH1 {
     margin: 0;
     padding: 0;      
 }
