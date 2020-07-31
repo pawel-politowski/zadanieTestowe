@@ -6,7 +6,7 @@ export const LogModal = ({ showLog, closeLog }) => {
     <div className="modal-wrapper"
       style={{
         transform: showLog ? 'translateY(0vh)' : 'translateY(-100vh)',
-        display: showLog ? 'block' : 'none'
+        opacity: showLog ? '1' : '0'
       }}
     >
       <div className="modal-header">

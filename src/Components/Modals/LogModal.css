@@ -11,11 +11,10 @@
   
   .modal-wrapper {
     background: #fff;     
-    transition: all 1s ease;
+    transition: all 0.5s ease;
     position: fixed;
     left: 30%;
-    top: 40%; 
-    /* transform: translate(-50%, -50%);      */
+    top: 40%;    
     z-index: 2;     
     border: 1px solid black;
     width: 40%;
@@ -28,6 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 1.5rem;
   }
   
   .modal-header span {
@@ -41,19 +41,6 @@
   
   .modal-body {
     margin-bottom: 1rem;
-  }
-  
-  .modal-body h4 {
-    font-size: 1.8rem;
-    color:goldenrod;
-  }
-  
-  .modal-body p {
-    font-size: 1rem;
-    background: #eee;
-    color: #333;
-    padding: 1rem;
-    margin: 1rem 0 2rem 0;
   }
   
   .modal-footer button {

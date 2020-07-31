@@ -6,7 +6,7 @@ export const RegisterModal = ({ showRegister, closeRegister }) => {
     <div className="modal-wrapper"
       style={{
         transform: showRegister ? 'translateY(0vh)' : 'translateY(-100vh)',
-        display: showRegister ? 'block' : 'none'
+        opacity: showRegister ? '1' : '0'
       }}
     >
       <div className="modal-header">
